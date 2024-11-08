@@ -1,0 +1,113 @@
+/* Alap stílusok */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Focis háttér a fő oldalra */
+body {
+    background-color: #2d3e50; /* Sötétkék háttér */
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px), radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 30px 30px; /* A focipályák hálója a háttéren */
+    color: #ffffff;
+}
+
+/* Fejléc */
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #ffcc00; /* Focis sárga szín */
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* Navigációs menü */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Tábla stílusok */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2d3e50;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+table td {
+    background-color: #ffffff;
+    color: #2d3e50;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    color: black;
+}
+
+/* Különböző elem stílusok */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
